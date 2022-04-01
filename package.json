@@ -1,0 +1,41 @@
+{
+  "name": "progate",
+  "version": "1.0.0",
+  "description": "Untuk mendapatkan API Movies DB bisa register melalui link\r [THE MOVIESDB](https://www.themoviedb.org/)",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack serve --mode development",
+    "dev": "webpack-dev-server --config webpack.config.js --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aldyy123/themoviesdb.git"
+  },
+  "author": "Ardyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aldyy123/themoviesdb/issues"
+  },
+  "homepage": "https://github.com/Aldyy123/themoviesdb#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
